@@ -1,0 +1,16 @@
+<div qv-extension style="height: 100%; position: relative; overflow: auto;" class="ng-scope">
+    <div class="cw_topnav cw_large_device" id="myTopnav_large">
+        <div style="float: right;">
+            <a ng-repeat="i in layout.menuItems" class="color-{{i.color}} context-menu-{{i.isnavigation}}" ng-click="navigate(i)" > {{i.label}}</a>
+            <a class="navigateToMail" id="navigateToMail"  title="Email Link">Share</a>
+            <a class="navigateToClipboard" id="navigateToClipboard" title="Copy Link">Copy Link</a>
+            <a id="createIssue" class="createIssue" title="Issue">Create Issue</a>
+        </div>
+        <div class="cw_topnav cw_small_device" id="myTopnav_small">
+            <details>
+                <summary>Menu</summary>
+                <a ng-repeat="i in layout.menuItems" class="color-{{i.color}} context-menu-{{i.isnavigation}}"  ng-click="navigate(i)"> {{i.label}}</a>
+            </details>
+        </div>
+    </div>
+</div>

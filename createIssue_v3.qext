@@ -1,0 +1,15 @@
+{
+    "name": "createIssue_v3",
+    "type": "visualization",
+    "description": "A button that creates links so that the current sheet and selections can be shared with others.\nVersion: 0.31.0",
+    "version": "0.31.0",
+    "icon": "share",
+    "preview": "",
+    "keywords": "qlik-sense, visualization",
+    "author": "Shiva",
+    "homepage": "",
+    "license": "MIT",
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+}
