@@ -1,4 +1,4 @@
-# Issues-creation-QlikSense
+# Issues-creation
 
 > Create Issue extensions for Qlik sense
 
